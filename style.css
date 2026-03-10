@@ -1,14 +1,14 @@
     /* --- RESET & VARIABLES --- */
         :root {
-            --bg-main: #605436;
-            --bg-card: #171717;
+            --bg-main: #7e96b2;
+            --bg-card: #274269;
             --bg-element: #2b2b2b;
             --border-color: #3a3a3a;
             --text-primary: #f1f5f9;
             --text-secondary: #94a3b8;
-            --accent: #d4af37;
-            --accent-hover: #b6902d;
-            --gold-gradient: linear-gradient(to right, #f5d76e, #d4af37);
+            --accent: #21a338;
+            --accent-hover: #1a8a2f;
+            --gold-gradient: linear-gradient(to right, #21a338, #1a8a2f);
             --font-main: 'Inter', sans-serif;
             --sidebar-width: 260px;
         }
@@ -159,17 +159,17 @@
 
         .btn-primary {
             background-color: var(--accent);
-            color: #171717;
-            box-shadow: 0 4px 10px rgba(212, 175, 55, 0.35);
+            color: #ffffff;
+            box-shadow: 0 4px 10px rgba(33, 163, 56, 0.35);
         }
         .btn-primary:hover { background-color: var(--accent-hover); }
 
         .btn-secondary {
-            background-color: #545454;
-            border: 1px solid #545454;
-            color: #fff;
+            background-color: #f0c779;
+            border: 1px solid #f0c779;
+            color: #1a1a1a;
         }
-        .btn-secondary:hover { background-color: #666666; border-color: #666666; }
+        .btn-secondary:hover { background-color: #e4b862; border-color: #e4b862; }
 
         /* --- MAIN CONTENT --- */
         .main-content {
@@ -539,7 +539,7 @@
 
         /* Footer */
         .site-footer {
-            background-color: #171717;
+            background-color: #274269;
             padding: 4rem 1.5rem;
             border-top: 1px solid var(--border-color);
             font-size: 0.9rem;
